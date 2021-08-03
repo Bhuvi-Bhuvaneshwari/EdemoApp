@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/red1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:src="@drawable/eicon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/emergency_app"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/panicbtn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="128dp"
+            android:padding="2dp"
+            android:src="@drawable/panic"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="play"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/stopbtn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="70dp"
+            android:padding="2dp"
+            android:src="@drawable/stop"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="stop"/>
+
+        <Button
+            android:id="@+id/emcnum"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="380dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/emergency_numbers"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#B30202"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/tnb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emcnum" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

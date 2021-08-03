@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Emergency App</string>
+    <string name="emergency_numbers">emergency numbers</string>
+    <string name="emergency_app">Emergency App</string>
+    <string name="emergency_number">Emergency Numbers</string>
+    <string name="fire">Fire</string>
+    <string name="_101">101</string>
+    <string name="crime_robbery">Crime/Robbery</string>
+    <string name="_100">100</string>
+    <string name="medical_emergency">Medical Emergency</string>
+    <string name="no">No:</string>
+    <string name="_102">102</string>
+    <string name="blood_requirement">Blood Requirement</string>
+    <string name="_104">104</string>
+    <string name="child_lost_the_way">Child Lost The Way</string>
+    <string name="_1098">1098</string>
+    <string name="woman_safety">Woman Safety</string>
+    <string name="_1091">1091</string>
+    <string name="_108">108</string>
+    <string name="_139">139</string>
+    <string name="natural_calamity">Natural Calamity</string>
+    <string name="senior_citizen_helpline">Senior Citizen Helpline</string>
+    <string name="railway_enquiry">Railway Enquiry</string>
+    <string name="_8892859578">8892859578</string>
+    <string name="example">Example</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="find_fire_station">Find Fire Station</string>
+
+
+</resources>

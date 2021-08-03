@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:src="@drawable/isenior" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/senior_citizen_helpline"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.0"
+        android:visibility="gone">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="165dp">
+
+            <TextView
+                android:layout_marginStart="180sp"
+                android:text="@string/no"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tcall8"
+                android:layout_marginStart="10sp"
+                android:text="@string/_1091"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="121dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bcall8"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_call_24" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="85dp"
+                android:src="@drawable/ic_location_on_24" />
+        </TableRow>
+
+    </TableLayout>
+    <!--9999999999999999999999999999999999999999999999999999999999999-->
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:src="@drawable/irailway" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/railway_enquiry"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintVertical_bias="0.0"
+        android:visibility="gone">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="165dp">
+
+            <TextView
+                android:layout_marginStart="180sp"
+                android:text="@string/no"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tcall9"
+                android:layout_marginStart="10sp"
+                android:text="@string/_139"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="121dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bcall9"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_call_24" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="85dp"
+                android:src="@drawable/ic_location_on_24" />
+        </TableRow>
+    </TableLayout>
+    <!--example              example              example          -->
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout9"
+        app:layout_constraintVertical_bias="0.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:src="@drawable/red1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/example"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout0"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout0"
+        app:layout_constraintVertical_bias="0.0"
+        android:visibility="gone">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="165dp">
+
+            <TextView
+                android:layout_marginStart="180sp"
+                android:text="@string/no"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tcall0"
+                android:layout_marginStart="10sp"
+                android:text="@string/_8892859578"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="121dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bcall0"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_call_24" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="85dp"
+                android:src="@drawable/ic_location_on_24" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
