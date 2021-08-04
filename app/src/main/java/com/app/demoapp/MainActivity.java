@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
             Button btn = findViewById(R.id.emcnum);
             btn.setOnClickListener(v -> startActivity(new Intent(MainActivity.this,EmcNumActivity.class)));
 
-            Button btn1 = findViewById(R.id.tnb);
-            btn1.setOnClickListener(v -> startActivity(new Intent(MainActivity.this,MainActivity2.class)));
         }
 
         public void play(View v)
