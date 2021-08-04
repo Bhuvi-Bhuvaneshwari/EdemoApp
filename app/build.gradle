@@ -59,13 +59,4 @@ dependencies {
     implementation 'com.github.User:Repo:Version'
     implementation 'com.github.jitpack:gradle-simple:master-SNAPSHOT'
 
-
-
-
-
-
-
-
-
-
 }
