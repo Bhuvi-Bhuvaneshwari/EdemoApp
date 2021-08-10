@@ -53,10 +53,5 @@ dependencies {
     implementation 'com.google.android.gms:play-services-places:17.0.0'
     implementation 'com.google.android.libraries.places:places:2.4.0'
 
-    implementation 'com.github.broakenmedia:MultiContactPicker:1.8.5'
-    implementation "io.github.l4digital:fastscroll:2.0.1"
-
-
-
 
 }
